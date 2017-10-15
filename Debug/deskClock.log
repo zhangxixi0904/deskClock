@@ -1,0 +1,87 @@
+﻿生成启动时间为 2017/1/2 星期一 21:49:29。
+     1>项目“E:\面向对象程序设计\C++视频\本书源程序\第3章\桌面时钟\deskClock\deskClock.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\deskClock.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\deskClock.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AlarmSetDlg.cpp BackSetDlg.cpp BeepSetDlg.cpp ClockDate.cpp ClockHand.cpp ClockNum.cpp ClockScale.cpp DateSetDlg.cpp deskClock.cpp deskClockDlg.cpp HandSetDlg.cpp NumTimeSetDlg.cpp ScaleSetDlg.cpp SystemTimeSetDlg.cpp
+         SystemTimeSetDlg.cpp
+         ScaleSetDlg.cpp
+         NumTimeSetDlg.cpp
+         HandSetDlg.cpp
+         deskClockDlg.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(366): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(377): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(396): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(401): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(419): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(422): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(528): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(529): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(565): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(614): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclockdlg.cpp(640): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+         deskClock.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\deskclock.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : 参见“CWinApp::Enable3dControls”的声明
+         DateSetDlg.cpp
+         ClockScale.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockscale.cpp(63): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockscale.cpp(64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockscale.cpp(68): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockscale.cpp(69): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         ClockNum.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clocknum.cpp(83): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clocknum.cpp(87): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clocknum.cpp(90): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clocknum.cpp(94): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         ClockHand.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockhand.cpp(93): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockhand.cpp(99): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockhand.cpp(102): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         ClockDate.cpp
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(38): warning C4101: “nDayOfWeek”: 未引用的局部变量
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(77): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(79): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(89): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(91): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(95): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(97): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(100): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(102): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(106): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\面向对象程序设计\c++视频\本书源程序\第3章\桌面时钟\deskclock\clockdate.cpp(108): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         BeepSetDlg.cpp
+         BackSetDlg.cpp
+         AlarmSetDlg.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\deskClock.res" deskClock.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\deskClock.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\deskClock.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\deskClock.lib" /MACHINE:X86 /SAFESEH .\Debug\deskClock.res
+         .\Debug\AlarmSetDlg.obj
+         .\Debug\BackSetDlg.obj
+         .\Debug\BeepSetDlg.obj
+         .\Debug\ClockDate.obj
+         .\Debug\ClockHand.obj
+         .\Debug\ClockNum.obj
+         .\Debug\ClockScale.obj
+         .\Debug\DateSetDlg.obj
+         .\Debug\deskClock.obj
+         .\Debug\deskClockDlg.obj
+         .\Debug\HandSetDlg.obj
+         .\Debug\NumTimeSetDlg.obj
+         .\Debug\ScaleSetDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\SystemTimeSetDlg.obj
+     1>AlarmSetDlg.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         deskClock.vcxproj -> E:\面向对象程序设计\C++视频\本书源程序\第3章\桌面时钟\deskClock\.\Debug\deskClock.exe
+     1>已完成生成项目“E:\面向对象程序设计\C++视频\本书源程序\第3章\桌面时钟\deskClock\deskClock.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.97

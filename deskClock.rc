@@ -1,0 +1,471 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\deskClock.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\deskClock.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 deskClock"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "deskClock 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DESKCLOCK_DIALOG DIALOGEX 0, 0, 516, 431
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "Button1",IDC_EXIT,385,24,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Button2",IDC_SHOW,454,24,50,14,NOT WS_VISIBLE
+END
+
+IDD_SET_SCALE DIALOG DISCARDABLE  0, 0, 188, 128
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "表盘设置"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "刻度样式",IDC_STATIC,10,6,64,77
+    CONTROL         "圆形",IDC_ELLIPSE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,28,22,32,10
+    CONTROL         "方形",IDC_RECT,"Button",BS_AUTORADIOBUTTON,28,36,32,10
+    CONTROL         "菱形",IDC_RHOMBUS,"Button",BS_AUTORADIOBUTTON,28,50,32,
+                    10
+    CONTROL         "三角形",IDC_STIANGLE,"Button",BS_AUTORADIOBUTTON,28,64,
+                    40,10
+    GROUPBOX        "刻度颜色",IDC_STATIC,74,6,105,77
+    PUSHBUTTON      "确定",IDOK,70,112,50,14
+    PUSHBUTTON      "取消",IDCANCEL,128,111,50,14
+    PUSHBUTTON      "选择...",IDC_OTHER,120,64,50,14
+    LTEXT           "当前颜色：",IDC_STATIC,86,22,41,8
+    GROUPBOX        "LOGO设置",IDC_STATIC,10,84,169,23
+    CONTROL         "反色",IDC_O,"Button",BS_AUTORADIOBUTTON | WS_GROUP,19,
+                    94,32,10
+    CONTROL         "金色",IDC_GLOD,"Button",BS_AUTORADIOBUTTON,74,94,32,10
+    CONTROL         "隐藏",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,124,94,32,
+                    10
+END
+
+IDD_SET_HAND DIALOG DISCARDABLE  0, 0, 289, 202
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指针设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,148,176,50,14
+    PUSHBUTTON      "取消",IDCANCEL,220,176,50,14
+    GROUPBOX        "时针",IDC_STATIC,23,19,74,144
+    LTEXT           "当前边框颜色：",IDC_STATIC,29,36,57,8
+    LTEXT           "当指针颜色：",IDC_STATIC,29,100,49,8
+    PUSHBUTTON      "选择...",IDC_HBCOLOR,58,77,36,12
+    PUSHBUTTON      "选择...",IDC_HCOLOR,58,144,36,12
+    GROUPBOX        "分针",IDC_STATIC,112,19,74,144
+    LTEXT           "当前边框颜色：",IDC_STATIC,118,36,57,8
+    LTEXT           "当指针颜色：",IDC_STATIC,118,100,49,8
+    PUSHBUTTON      "选择...",IDC_MBCOLOR,147,77,36,12
+    PUSHBUTTON      "选择...",IDC_MCOLOR,147,144,36,12
+    GROUPBOX        "秒针",IDC_STATIC,200,18,74,144
+    LTEXT           "当前指针颜色：",IDC_STATIC,206,35,57,8
+    PUSHBUTTON      "选择...",IDC_SBCOLOR,235,76,36,12
+END
+
+IDD_SET_DATE DIALOG DISCARDABLE  0, 0, 297, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "日期时钟设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,151,185,50,14
+    PUSHBUTTON      "取消",IDCANCEL,229,184,50,14
+    GROUPBOX        "位置设置",IDC_STATIC,18,13,128,160
+    COMBOBOX        IDC_COMIN,63,105,75,117,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "位置：",IDC_STATIC,27,108,25,8
+    COMBOBOX        IDC_COMOUT,63,150,75,106,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "位置：",IDC_STATIC,27,153,33,8
+    GROUPBOX        "显示设置",IDC_STATIC,149,115,138,58
+    GROUPBOX        "字体颜色设置",IDC_STATIC,149,13,138,100
+    LTEXT           "当前颜色：",IDC_STATIC,157,47,56,8
+    PUSHBUTTON      "定制...",IDC_DATECOLOR,171,89,40,11
+    CONTROL         "左右分布",IDC_UP,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    26,38,48,10
+    CONTROL         "上下分布",IDC_LEFT,"Button",BS_AUTORADIOBUTTON,84,37,48,
+                    10
+    GROUPBOX        "布局",IDC_STATIC,21,24,120,37
+    CONTROL         "表盘内",IDC_IN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    25,83,40,10
+    CONTROL         "表盘外",IDC_OUT,"Button",BS_AUTORADIOBUTTON,25,132,40,
+                    10
+    CONTROL         "隐藏",IDC_SHOW,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    166,143,32,10
+    CONTROL         "显示",IDC_HIDE,"Button",BS_AUTORADIOBUTTON,228,143,32,
+                    10
+    GROUPBOX        "位置",IDC_STATIC,22,68,119,100
+    LTEXT           "当前颜色：",IDC_STATIC,221,46,56,8
+    PUSHBUTTON      "定制...",IDC_WEEKCOLOR,235,89,40,11
+    GROUPBOX        "日期",IDC_STATIC,153,30,63,77
+    GROUPBOX        "星期",IDC_STATIC,217,30,63,77
+END
+
+IDD_SET_NUMTIME DIALOG DISCARDABLE  0, 0, 297, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数字时钟设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,151,185,50,14
+    PUSHBUTTON      "取消",IDCANCEL,229,184,50,14
+    GROUPBOX        "位置设置",IDC_STATIC,18,13,128,160
+    COMBOBOX        IDC_COMIN,61,47,75,117,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "位置：",IDC_STATIC,25,50,25,8
+    COMBOBOX        IDC_COMOUT,61,92,75,106,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "位置：",IDC_STATIC,25,95,33,8
+    LTEXT           "X坐标：",IDC_STATIC,25,138,33,8
+    EDITTEXT        IDC_COMX,61,135,40,14,ES_AUTOHSCROLL
+    LTEXT           "Y坐标：",IDC_STATIC,25,158,33,8
+    EDITTEXT        IDC_COMY,61,154,40,14,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC,105,137,33,8
+    LTEXT           "像素",IDC_STATIC,105,156,33,8
+    GROUPBOX        "显示设置",IDC_STATIC,149,100,138,73
+    GROUPBOX        "颜色设置",IDC_STATIC,149,13,138,84
+    LTEXT           "当前字体颜色：",IDC_STATIC,157,31,56,8
+    PUSHBUTTON      "定制...",IDC_COLOR,173,78,40,11
+    CONTROL         "字体背景色",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,227,79,54,10
+    CONTROL         "表盘内",IDC_IN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    27,27,40,10
+    CONTROL         "表盘外",IDC_OUT,"Button",BS_AUTORADIOBUTTON,28,75,40,10
+    CONTROL         "自定义",IDC_USER,"Button",BS_AUTORADIOBUTTON,27,121,40,
+                    10
+    CONTROL         "隐藏",IDC_HIDE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    164,133,32,10
+    CONTROL         "显示",IDC_SHOW,"Button",BS_AUTORADIOBUTTON,217,133,32,
+                    10
+END
+
+IDD_SET_BACK DIALOG DISCARDABLE  0, 0, 285, 179
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "背景设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,148,158,50,14
+    PUSHBUTTON      "取消",IDCANCEL,220,158,50,14
+    GROUPBOX        "背景颜色",IDC_STATIC,23,38,74,86
+    LTEXT           "当前背景颜色：",IDC_STATIC,29,55,57,8
+    PUSHBUTTON      "选择...",IDC_BKCOLOR,57,101,36,12
+    GROUPBOX        "背景图像",IDC_STATIC,95,38,173,86
+    GROUPBOX        "背景设置",IDC_STATIC,1,7,279,135
+    CONTROL         "颜色背景",IDC_COLOR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,33,20,48,10
+    CONTROL         "图像背景",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,81,20,
+                    48,10
+    LTEXT           "当前图像路径：",IDC_STATIC,103,55,57,8
+    EDITTEXT        IDC_EDITPICTURE,109,70,155,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择...",IDC_BKPICTURE,227,103,36,12
+    CONTROL         "居中",IDC_CENTER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    109,104,32,10
+    CONTROL         "拉伸",IDC_STRE,"Button",BS_AUTORADIOBUTTON,161,104,32,
+                    10
+END
+
+IDD_SET_TIME DIALOG DISCARDABLE  0, 0, 319, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统时间设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,180,115,50,14
+    PUSHBUTTON      "取消",IDCANCEL,246,115,50,14
+    LTEXT           "时：",IDC_STATIC,49,40,17,8
+    LTEXT           "分：",IDC_STATIC,49,58,17,8
+    LTEXT           "秒：",IDC_STATIC,49,76,17,8
+    EDITTEXT        IDC_HO,69,38,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MI,69,56,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SE,69,74,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "系统时间设置：",IDC_STATIC,31,18,131,82
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,189,49,100,15
+    GROUPBOX        "系统时间设置：",IDC_STATIC,173,18,131,82
+END
+
+IDD_SET_ALARM DIALOG DISCARDABLE  0, 0, 324, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "闹铃设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,179,147,50,14
+    PUSHBUTTON      "取消",IDCANCEL,245,147,50,14
+    LTEXT           "时：",IDC_STATIC,49,40,17,8
+    LTEXT           "分：",IDC_STATIC,49,58,17,8
+    LTEXT           "秒：",IDC_STATIC,49,76,17,8
+    EDITTEXT        IDC_HO,76,38,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MI,76,56,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SE,76,74,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "闹铃时间设置：",IDC_STATIC,31,18,151,125
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,74,98,100,15
+    LTEXT           "日期：",IDC_STATIC,49,100,25,8
+    GROUPBOX        "闹铃音乐设置：",IDC_STATIC,187,18,111,125
+    CONTROL         "选择音乐",IDC_MUSIC,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,197,35,48,10
+    CONTROL         "蜂鸣器音乐",IDC_BEEP,"Button",BS_AUTORADIOBUTTON,197,91,
+                    56,10
+    EDITTEXT        IDC_PATHMUSIC,201,52,94,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择...",IDC_SBEEP,242,105,48,16
+    CONTROL         "启用音乐",IDC_BMUSIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,197,126,68,12
+    PUSHBUTTON      "选择...",IDC_SMUSIC,242,72,48,16
+END
+
+IDD_SET_BEEP DIALOG DISCARDABLE  0, 0, 233, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "蜂鸣器"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,82,142,50,14
+    PUSHBUTTON      "取消",IDCANCEL,161,142,50,14
+    GROUPBOX        "选择蜂鸣器提示音",IDC_STATIC,24,22,186,104
+    GROUPBOX        "多音调",IDC_STATIC,55,35,56,81
+    GROUPBOX        "单音调",IDC_STATIC,122,38,56,81
+    CONTROL         "小酒窝",IDC_XIAOJIUWO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,66,53,40,10
+    CONTROL         "升调",IDC_UP,"Button",BS_AUTORADIOBUTTON,66,71,32,10
+    CONTROL         "降调",IDC_DOWN,"Button",BS_AUTORADIOBUTTON,66,87,32,10
+    CONTROL         "C1",IDC_C1,"Button",BS_AUTORADIOBUTTON,135,51,24,10
+    CONTROL         "D1",IDC_D1,"Button",BS_AUTORADIOBUTTON,135,65,24,10
+    CONTROL         "E1",IDC_E1,"Button",BS_AUTORADIOBUTTON,135,78,24,10
+    CONTROL         "F1",IDC_F1,"Button",BS_AUTORADIOBUTTON,135,90,24,10
+    CONTROL         "G1",IDC_G1,"Button",BS_AUTORADIOBUTTON,135,101,24,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "deskClock Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "deskClock\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "deskClock.EXE\0"
+            VALUE "ProductName", "deskClock 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "界面设置"
+    BEGIN
+        POPUP "界面设置"
+        BEGIN
+            MENUITEM "表盘设置",                    IDM_SET_SCALE
+            MENUITEM "表针设置",                    IDM_SET_HAND
+            MENUITEM "数字时钟设置",                IDM_SET_NUMTIME
+            MENUITEM "日期时钟设置",                IDM_SET_DATE
+            MENUITEM "背景设置",                    IDM_SET_BACK
+        END
+        POPUP "时间设置"
+        BEGIN
+            MENUITEM "设置系统时间",                IDM_TIME_TIME
+            MENUITEM "设置闹铃",                    IDM_TIME_ALARM
+        END
+        MENUITEM "全屏显示",                    IDM_FULL
+        MENUITEM "关闭时钟",                    IDOK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOG                 BITMAP  DISCARDABLE     "log.bmp"
+IDB_LOGMASK             BITMAP  DISCARDABLE     "背景.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SET_TIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_SET_ALARM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 317
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SET_BEEP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 deskClock(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_SET_HAND            "设置表针样式及颜色"
+    IDM_SET_SCALE           "设置表盘刻度样式"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\deskClock.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

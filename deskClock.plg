@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: deskClock - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1B8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/deskClock.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\AlarmSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\BackSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\BeepSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockHand.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockNum.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockScale.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\DateSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClock.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\HandSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\NumTimeSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ScaleSetDlg.cpp"
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\SystemTimeSetDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1B8.tmp" 
+Creating temporary file "C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1B9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/deskClock.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\new\已完成\源代码\第三章\桌面时钟\deskClock\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1B9.tmp" 
+Creating temporary file "C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1BA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/deskClock.pdb" /debug /machine:I386 /out:"Debug/deskClock.exe" /pdbtype:sept 
+".\Debug\AlarmSetDlg.obj"
+".\Debug\BackSetDlg.obj"
+".\Debug\BeepSetDlg.obj"
+".\Debug\ClockDate.obj"
+".\Debug\ClockHand.obj"
+".\Debug\ClockNum.obj"
+".\Debug\ClockScale.obj"
+".\Debug\DateSetDlg.obj"
+".\Debug\deskClock.obj"
+".\Debug\deskClockDlg.obj"
+".\Debug\HandSetDlg.obj"
+".\Debug\NumTimeSetDlg.obj"
+".\Debug\ScaleSetDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SystemTimeSetDlg.obj"
+".\Debug\deskClock.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1BA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AlarmSetDlg.cpp
+BackSetDlg.cpp
+BeepSetDlg.cpp
+ClockDate.cpp
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(38) : warning C4101: 'nDayOfWeek' : unreferenced local variable
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(77) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(79) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(89) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(91) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(95) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(97) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(100) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(102) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(106) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockDate.cpp(108) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+ClockHand.cpp
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockHand.cpp(93) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockHand.cpp(99) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockHand.cpp(102) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+ClockNum.cpp
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockNum.cpp(83) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockNum.cpp(87) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockNum.cpp(90) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockNum.cpp(94) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+ClockScale.cpp
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockScale.cpp(63) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockScale.cpp(64) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockScale.cpp(68) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\ClockScale.cpp(69) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+DateSetDlg.cpp
+deskClock.cpp
+deskClockDlg.cpp
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(366) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(377) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(396) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(401) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(419) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(422) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(528) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(529) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+F:\new\已完成\源代码\第三章\桌面时钟\deskClock\deskClockDlg.cpp(565) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+HandSetDlg.cpp
+NumTimeSetDlg.cpp
+ScaleSetDlg.cpp
+SystemTimeSetDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1BB.tmp" with contents
+[
+/nologo /o"Debug/deskClock.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AlarmSetDlg.sbr"
+".\Debug\BackSetDlg.sbr"
+".\Debug\BeepSetDlg.sbr"
+".\Debug\ClockDate.sbr"
+".\Debug\ClockHand.sbr"
+".\Debug\ClockNum.sbr"
+".\Debug\ClockScale.sbr"
+".\Debug\DateSetDlg.sbr"
+".\Debug\deskClock.sbr"
+".\Debug\deskClockDlg.sbr"
+".\Debug\HandSetDlg.sbr"
+".\Debug\NumTimeSetDlg.sbr"
+".\Debug\ScaleSetDlg.sbr"
+".\Debug\SystemTimeSetDlg.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\yang\LOCALS~1\Temp\RSP1BB.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+deskClock.exe - 0 error(s), 31 warning(s)
+</pre>
+</body>
+</html>
